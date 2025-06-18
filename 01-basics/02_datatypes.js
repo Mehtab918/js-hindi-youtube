@@ -56,10 +56,10 @@ console.log(typeof (score));
 console.log(typeof score);
 
 let isLoggedIn = 1;
-console.log(Boolean(isLoggedIn));
+console.log(Boolean(isLoggedIn)); // true
 
 isLoggedIn = 0;
-console.log(Boolean(isLoggedIn));
+console.log(Boolean(isLoggedIn)); // false
 
 //true --> 1 
 // false --> 0 
