@@ -48,3 +48,39 @@ console.log(typeof c);
 
 console.log(typeof names);  // typeof of function is function 
 console.log(typeof myObj); //typeof of object is object
+
+
+//Stack and Heap 
+
+let  userName = "mdmehtab";
+
+let userId =  "mehtab18" ;
+
+let anotherUserName = userName;
+
+anotherUserName = "khanmehtab4";
+
+console.log(userName);
+console.log(anotherUserName);
+
+
+let myObj2 = {
+    email :  "user@gmail.com",
+    upi : "user@ybl"
+}
+
+let myObj3 = myObj2;
+
+console.log(myObj3.email="khanmehtab6@gmail.com");
+console.log(myObj2.email);
+
+console.log("^^^^^^^^^^^^^^^^^^^^^^^^^^");
+// Task
+console.log("z"<"b" ) ; // false
+console.log("apple" > "pineapple");  // false
+console.log("2" > "12"); // true
+console.log(undefined == null);  //true
+console.log(undefined === null); //false
+console.log(null == "\n0\n"); // false
+console.log(null === +"\n0\n"); // false
+
