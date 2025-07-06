@@ -46,6 +46,11 @@ console.log(hasownproperty);
 
 
 //OBJECT DESTRUCTION   {}
+/* In javascripy , Object Destruction is a syntax which is introduced in ES6.
+Main purpose of Object desctruction is to make ease to extract property from object and assign them to variables without writing repeatedly dot(.) notation */
+
+/* Ek object k andar jo  properties hai unko ek step me variables me tod deta hai.*/
+
 const user = {
     name:"Jodn doe",
     age:30,
@@ -66,19 +71,29 @@ const user = {
 
 
 // new way  - ES6 - Object destruction - {}
-const {name, age,addr,sal} = user;
+
+const {name} =user;
+console.log(name);
+
+//multiple property acess = const{property1 , propert2 ,.......propertyN} = Object
+const {age,addr,sal} = user;
 
 console.log(name);
 console.log(age);
 console.log(addr);
 console.log(sal);
 
-// alias name for property
+// alias name for property - we can change the key name of any property .
+
 
 const{"full name": MyName} = JsUser
 
 console.log(MyName);
 
 
+//JSON - Javascript object notation
+
+// {"name":"John", "age":30, "car":null}  this is json
+//API data comes in the form of JSON not XML .   and this data is mostly in the array and objects formats.
 
 
